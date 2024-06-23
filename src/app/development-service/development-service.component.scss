@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+ //   background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ //   background-color: #fff;
+}
+
+.section-1 { 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.400);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: -100px;
+}
+
+.section-2 {   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.400);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.section-3 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.400);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin-right: -100px;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1b7499;
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #1b7499;
+}

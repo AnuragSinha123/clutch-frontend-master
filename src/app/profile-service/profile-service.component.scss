@@ -1,0 +1,33 @@
+.ad-container {
+    display: contents;
+    height: 800px; /* Adjusted height */
+    width: 1263px;
+}
+
+
+.text-section {
+    background-color: #172F4A;
+    color: white;
+    padding: 20px;
+    height: 250px;
+}
+
+.text-section h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.text-section h2 {
+    margin-top: 12px;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.text-section button {
+    background-color: #fff;
+    color: white;
+}
+
+.button-spacing {
+    margin-right: 10px; /* Adjust the value as needed */
+}

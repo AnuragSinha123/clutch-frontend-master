@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="join-service.component.scss">
+    <title>Join Popup</title>
+</head>
+<body>
+
+<button id="openPopupBtn">Join</button>
+
+<div class="join-popup"  #joinPopup>
+    <div class="join-popup-content">
+        <h2 style="color: #333;margin-left:150px;margin-top:16px">Join Our Website</h2>
+        <label for="signUs" style="color:#333;margin-left: 19px;font-size:15px;">New to our website?</label>
+        <a href="#" class="sign-in-link" style="color:#11BF8F;margin-left:3px;font-size:15px;font-weight:bold;">Sign In</a>
+        <form class="join-form">
+            <input class="first-name-content" type="firstName" id="firstName" placeholder="Enter Your First Name" required>
+            <input class="last-name-content" type="secondName" id="secondName" placeholder="Enter Your Second Name" required>       
+            <input class="email-content" type="email" id="email" placeholder="Enter your work email" required>
+            <input class="password-content" type="password" id="password" placeholder="Enter your password" required>
+            <input class="confirm-password-content" type="confirmPassword" id="confirmPassword" placeholder="Enter your password again" required>
+            <a href="#" class="forgot-link" style="color:#11BF8F;margin-left: 168px;font-size: 13px;">Forgot password?</a>
+            <button class="sign-in-content" id="signInButton">Sign In</button>
+            <label for="joinUs" style="color:#333;margin-left: 19px;font-size:15px;">New to our website?</label>
+            <a href="#" class="join-link" style="color:#11BF8F;margin-left:3px;font-size:15px;font-weight:bold;">Join Us</a>
+            <a href="https://www.google.com" target="_blank" class="button google-button">Continue with Google</a>
+            <a style="margin-bottom:16px;" href="https://www.linkedin.com" target="_blank" class="button linkedin-button">Continue with LinkedIn</a>
+            <!-- <button id="closeButton" type="button" (click)="closeForm()">X</button> -->
+          </form>
+    </div>
+  </div>
+  
+
+</body>
+</html>
