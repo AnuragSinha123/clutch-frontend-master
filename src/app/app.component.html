@@ -1,9 +1,10 @@
 <!-- app.component.html -->
 
-<app-header ngSkipHydration></app-header>
-<app-main-content ngSkipHydration></app-main-content> <!-- Include the main content component -->
-<app-banner ngSkipHydration></app-banner> <!-- Include the main content component -->
-<app-homepage-service ngSkipHydration></app-homepage-service> <!-- Include the main content component -->
-<app-development-service ngSkipHydration></app-development-service> <!-- Include the footer component (optional) -->
-<app-profile-service ngSkipHydration></app-profile-service> <!-- Include the footer component (optional) -->
-<app-footer ngSkipHydration></app-footer> <!-- Include the footer component (optional) -->
+<app-header ngSkipHydration ></app-header>
+<router-outlet></router-outlet>
+<app-main-content ngSkipHydration></app-main-content> 
+<app-banner ngSkipHydration></app-banner>
+<app-homepage-service ngSkipHydration></app-homepage-service>
+<app-development-service ngSkipHydration></app-development-service> 
+<app-profile-service ngSkipHydration></app-profile-service> 
+<app-footer ngSkipHydration></app-footer> 
